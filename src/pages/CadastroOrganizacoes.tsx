@@ -296,7 +296,7 @@ const CadastroOrganizacoes = () => {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-              Certificamos suas ações ESG
+              Certificamos suas práticas ESG
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Dedicado a empresas, igrejas, investidores e todos que apoiam a equidade na educação de crianças e adolescentes brasileiros, cumprindo a ODD 4 da ONU.
