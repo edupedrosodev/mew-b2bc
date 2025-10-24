@@ -31,7 +31,7 @@ const Hero = () => {
               transition={{ duration: 0.5, delay: 0.5 }}
               className="text-xl md:text-2xl font-body mb-12 opacity-95"
             >
-              Ajudamos seu filho a alcançar todo o potencial com nossa plataforma completa de aprendizado do 6º ao 9º ano.
+              Ajudamos seu filho a alcançar todo o potencial com a nossa plataforma completa de aprendizado do 6º ao 9º ano.
             </motion.p>
 
             <motion.div

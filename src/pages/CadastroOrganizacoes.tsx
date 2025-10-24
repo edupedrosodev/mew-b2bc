@@ -306,7 +306,7 @@ const CadastroOrganizacoes = () => {
 <br></br>
 <p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-4">
   <strong>Adote ações e políticas públicas e receba nossos selos e nossa Certificação! <p>
-              Seja você um apoiador da equidade na educação de adolescentes no Brasil!</p></strong>
+              Seja você um apoiador da equidade na educação de adolescentes no Brasil!</p></strong> <p>Para conhecer mais sobre ESG Ligue: </p>
 </p>
 
 <ol className="list-decimal list-inside text-lg text-muted-foreground max-w-3xl mx-auto pl-5 mt-4 space-y-2 text-left">

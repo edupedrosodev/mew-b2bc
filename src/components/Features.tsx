@@ -22,7 +22,7 @@ const features = [
   },
   {
     title: "Estude no Seu Ritmo",
-    description: "Acesso 24/7 à plataforma para estudar quando e onde quiser.",
+    description: "Acesso à plataforma 24hs por dia, todos os dias para estudar quando e onde quiser.",
     icon: Clock,
   },
   {
@@ -32,7 +32,7 @@ const features = [
   },
   {
     title: "Resultados Comprovados",
-    description: "Milhares de alunos melhoraram suas notas com nossa metodologia.",
+    description: "Milhares de alunos melhoraram as suas notas com nossa metodologia.",
     icon: CheckCircle,
   },
 ];
