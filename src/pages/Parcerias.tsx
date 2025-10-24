@@ -312,7 +312,7 @@ const Parcerias = () => {
   <li>Baixe a planilha modelo.</li>
   <li>Preencha a planilha com os dados para o registro dos logins.</li>
   <li>Realize o upload da planilha para o documento seja anexado.</li>
-  <li>Envie os dados preenchidos clicando no botão <strong>'Enviar cadastro em massa'</strong>.</li>
+  <li>Envie os dados preenchidos clicando no botão <strong>'Cadastrar em Massa'</strong>.</li>
 </ol>
           </motion.div>
 
@@ -458,7 +458,7 @@ const Parcerias = () => {
                     <DialogTrigger asChild>
                       <Button type="button" variant="outline" size="lg" className="rounded-full">
                         <Upload className="mr-2 h-4 w-4" />
-                        Cadastrar em Massa
+                        Cadastrar estudantes em Massa
                       </Button>
                     </DialogTrigger>
                     <DialogContent 

@@ -296,10 +296,10 @@ const CadastroOrganizacoes = () => {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-              Cadastre sua Empresa ou Instituição
+              Certificamos suas ações ESG
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Para empresas que buscam fortalecer seu pilar 'Social' do ESG, ao lado de igrejas, investidores e apoiadores, investindo diretamente na equidade da educação para crianças e adolescentes do nosso Brasil.
+              Dedicado a empresas, igrejas, investidores e todos que apoiam a equidade na educação de crianças e adolescentes brasileiros, cumprindo a ODD 4 da ONU.
             </p>
           </motion.div>
 
@@ -349,7 +349,7 @@ const CadastroOrganizacoes = () => {
                 {/* Dados do Funcionário */}
                 <div>
                   <h2 className="text-2xl font-heading font-bold mb-6">
-                    Dados do Funcionário (Pai ou Responsável)
+                    Seus dados
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <FormField
@@ -409,7 +409,7 @@ const CadastroOrganizacoes = () => {
                       name="relationship"
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Relação com o estudante *</FormLabel>
+                          <FormLabel>Sua ocupação na empresa informada *</FormLabel>
                           <Select onValueChange={field.onChange} defaultValue={field.value}>
                             <FormControl>
                               <SelectTrigger>
@@ -417,10 +417,10 @@ const CadastroOrganizacoes = () => {
                               </SelectTrigger>
                             </FormControl>
                             <SelectContent>
-                              <SelectItem value="pai">Pai</SelectItem>
-                              <SelectItem value="mae">Mãe</SelectItem>
-                              <SelectItem value="responsavel">Responsável Legal</SelectItem>
-                              <SelectItem value="padrinho">Padrinho ou Madrinha</SelectItem>
+                              <SelectItem value="diretor">Diretor ESG</SelectItem>
+                              <SelectItem value="gestor">Gestor ESG</SelectItem>
+                              <SelectItem value="responsavel">Head de ESG</SelectItem>
+                              <SelectItem value="chefe">Chief Sustainability Officer</SelectItem>
                             </SelectContent>
                           </Select>
                           <FormMessage />
@@ -430,74 +430,22 @@ const CadastroOrganizacoes = () => {
                   </div>
                 </div>
 
-                {/* Dados do Estudante */}
-                <div>
-                  <h2 className="text-2xl font-heading font-bold mb-6">
-                    Dados do Estudante
-                  </h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <FormField
-                      control={form.control}
-                      name="studentName"
-                      render={({ field }) => (
-                        <FormItem className="md:col-span-2">
-                          <FormLabel>Nome completo *</FormLabel>
-                          <FormControl>
-                            <Input placeholder="Nome completo do estudante" {...field} />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="birthDate"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Data de nascimento *</FormLabel>
-                          <FormControl>
-                            <Input type="date" {...field} />
-                          </FormControl>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                    <FormField
-                      control={form.control}
-                      name="currentGrade"
-                      render={({ field }) => (
-                        <FormItem>
-                          <FormLabel>Série atual *</FormLabel>
-                          <Select onValueChange={field.onChange} defaultValue={field.value}>
-                            <FormControl>
-                              <SelectTrigger>
-                                <SelectValue placeholder="Selecione a série" />
-                              </SelectTrigger>
-                            </FormControl>
-                            <SelectContent>
-                              <SelectItem value="6ano">6º ano</SelectItem>
-                              <SelectItem value="7ano">7º ano</SelectItem>
-                              <SelectItem value="8ano">8º ano</SelectItem>
-                              <SelectItem value="9ano">9º ano</SelectItem>
-                            </SelectContent>
-                          </Select>
-                          <FormMessage />
-                        </FormItem>
-                      )}
-                    />
-                  </div>
-                </div>
-
-                <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4">
                   <Button type="submit" size="lg" className="rounded-full">
                     Enviar Cadastro
                   </Button>
                   
+                    {/* --- ADIÇÃO DO TEXTO LGPD/TERMOS --- */}
+<p className="text-xs text-muted-foreground text-center sm:text-left">
+  Ao clicar em "Enviar Cadastro", você concorda com nossos <a href="/termos-de-uso" className="underline hover:text-primary">Termos de Uso</a> e <a href="/politica-de-privacidade" className="underline hover:text-primary">Política de Privacidade (LGPD)</a>.
+</p>
+{/* --- FIM DA ADIÇÃO --- */}
+
                   <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
                     <DialogTrigger asChild>
                       <Button type="button" variant="outline" size="lg" className="rounded-full">
                         <Upload className="mr-2 h-4 w-4" />
-                        Cadastrar em Massa
+                        Cadastrar estudantes em Massa
                       </Button>
                     </DialogTrigger>
                     <DialogContent 
@@ -655,7 +603,7 @@ const CadastroOrganizacoes = () => {
                           </div>
 
                           <Button type="submit" size="lg" className="w-full rounded-full">
-                            Enviar Cadastro em Massa
+                            Enviar Cadastro de estudantes em Massa
                           </Button>
                         </form>
                       </Form>
