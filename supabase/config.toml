@@ -1,0 +1,7 @@
+project_id = "pqqpzkunlszdcnswqagy"
+
+[functions.send-bulk-registration-email]
+verify_jwt = false
+
+[functions.process-bulk-registration]
+verify_jwt = false
