@@ -8,7 +8,7 @@ import { CheckCircle2 } from "lucide-react";
 const plans = [
   {
     name: "Mensal",
-    price: "R$ 149,97",
+    price: "R$ 194,96",
     period: "",
     features: [
       "Trilha de estudos personalizada",
@@ -22,11 +22,11 @@ const plans = [
     highlighted: false,
     buttonText: "Assinar por 1 mês",
     totalYearLabel: "1 ano de acesso",
-    totalYearValue: "R$1799,64",
+    totalYearValue: "R$2.339,52",
   },
   {
     name: "Semestral",
-    price: "R$ 119,98",
+    price: "R$ 179,96",
     period: "(20% de desconto)",
     features: [
       "Trilha de estudos personalizada",
@@ -41,11 +41,11 @@ const plans = [
     badge: "O mais escolhido",
     buttonText: "Assinar por 6 meses",
     totalYearLabel: "1 ano de acesso",
-    totalYearValue: "R$1439,71",
+    totalYearValue: "R$2.159,52",
   },
   {
     name: "Anual",
-    price: "R$ 104,98",
+    price: "R$ 149,97",
     period: "(30% de desconto)",
     features: [
       "Trilha de estudos personalizada",
@@ -59,7 +59,7 @@ const plans = [
     highlighted: false,
     buttonText: "Assinar por 1 ano",
     totalYearLabel: "1 ano de acesso",
-    totalYearValue: "R$1259,76",
+    totalYearValue: "R$1.799,64",
   },
 ];
 
