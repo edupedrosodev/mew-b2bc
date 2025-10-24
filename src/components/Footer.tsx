@@ -21,7 +21,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm">
               <li>
                 <a href="#metodo" className="opacity-80 hover:opacity-100 transition-opacity">
-                  Método
+                  Metodologia
                 </a>
               </li>
               <li>
@@ -37,6 +37,16 @@ const Footer = () => {
               <li>
                 <a href="#planos" className="opacity-80 hover:opacity-100 transition-opacity">
                   Planos
+                </a>
+              </li>
+              <li>
+                <a href="\cadastro-organizacoes" className="opacity-80 hover:opacity-100 transition-opacity">
+                  ESG
+                </a>
+              </li>
+              <li>
+                <a href="\parcerias" className="opacity-80 hover:opacity-100 transition-opacity">
+                  Parcerias
                 </a>
               </li>
             </ul>
