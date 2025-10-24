@@ -295,13 +295,27 @@ const CadastroOrganizacoes = () => {
             transition={{ duration: 0.6, ease: "easeOut" }}
             className="text-center mb-12"
           >
+            
             <h1 className="text-4xl md:text-5xl font-heading font-bold mb-4">
-              Certificamos suas práticas ESG
-            </h1>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Dedicado a empresas, igrejas, investidores e todos que apoiam a equidade na educação de crianças e adolescentes brasileiros, cumprindo a ODD 4 da ONU.
-            </p>
-          </motion.div>
+              Certificação ESG para Empresas
+</h1>
+
+<p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+  Certificamos as práticas ESG da sua empresa!
+</p>
+<br></br>
+<p className="text-xl text-muted-foreground max-w-3xl mx-auto mt-4">
+  <strong>Adote ações e políticas públicas e receba nossos selos e nossa Certificação! <p>
+              Seja você um apoiador da equidade na educação de adolescentes no Brasil!</p></strong>
+</p>
+
+<ol className="list-decimal list-inside text-lg text-muted-foreground max-w-3xl mx-auto pl-5 mt-4 space-y-2 text-left">
+  <li>Clique no botão <strong>'Cadastrar em Massa'</strong> logo abaixo.</li>
+  <li>Baixe a planilha modelo.</li>
+  <li>Preencha a planilha com os dados para o registro dos logins.</li>
+  <li>Realize o upload da planilha para o documento seja anexado.</li>
+  <li>Envie os dados preenchidos clicando no botão <strong>'Cadastrar em Massa'</strong>.</li>
+</ol></motion.div>
 
           <motion.div
             initial={{ opacity: 0, y: 30 }}
