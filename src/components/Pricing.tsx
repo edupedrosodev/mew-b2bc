@@ -12,7 +12,7 @@ const plans = [
     period: "",
     features: [
       "Trilha de estudos personalizada",
-      "Acesso a ano letivo vigente",
+      "Acesso ao ano letivo vigente",
       "Com base na BNCC",
       "Aulas em vídeo",
       "Exercícios com solução",
@@ -30,7 +30,7 @@ const plans = [
     period: "(20% de desconto)",
     features: [
       "Trilha de estudos personalizada",
-      "Acesso a ano letivo vigente",
+      "Acesso ao ano letivo vigente",
       "Com base na BNCC",
       "Aulas em vídeo",
       "Exercícios com solução",
@@ -49,7 +49,7 @@ const plans = [
     period: "(30% de desconto)",
     features: [
       "Trilha de estudos personalizada",
-      "Acesso a ano letivo vigente",
+      "Acesso ao ano letivo vigente",
       "Com base na BNCC",
       "Aulas em vídeo",
       "Exercícios com solução",

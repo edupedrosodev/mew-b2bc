@@ -19,7 +19,7 @@ const FinalCTA = () => {
         className="container mx-auto px-6 text-center relative z-10"
       >
         <h2 className="text-4xl md:text-6xl font-heading font-bold mb-8 max-w-4xl mx-auto leading-tight">
-          Pronto para acelerar o potencial de aprendizado do seu filho?
+          Comece hoje e acompanhe a evolução do aprendizado do seu filho!
         </h2>
         
         <p className="text-xl md:text-2xl mb-12 max-w-2xl mx-auto opacity-95">
