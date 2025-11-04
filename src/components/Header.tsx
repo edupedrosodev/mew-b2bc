@@ -54,12 +54,6 @@ const Header = () => {
             Planos
           </button>
           <button
-            onClick={() => window.location.href = '/cadastro-organizacoes'}
-            className="text-sm font-medium text-foreground hover:text-primary transition-colors"
-          >
-            ESG
-          </button>
-          <button
             onClick={() => window.location.href = '/parcerias'}
             className="text-sm font-medium text-foreground hover:text-primary transition-colors"
           >
