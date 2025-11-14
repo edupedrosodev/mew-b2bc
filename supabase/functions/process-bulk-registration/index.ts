@@ -17,7 +17,7 @@ interface BulkRegistrationRequest {
 }
 
 const SUPABASE_URL = Deno.env.get('https://pfkrhjuohqqmvcmcrzmp.supabase.co') as string;
-const SERVICE_ROLE_KEY = Deno.env.get('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBma3JoanVvaHFxbXZjbWNyem1wIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MzA2MzI3NiwiZXhwIjoyMDc4NDIzMjc2fQ.PcdoYcOpQ3xzQvV5qXm4q6TLClScK_hzxpYT0GOBTfk') as string;
+const SERVICE_ROLE_KEY = Deno.env.get('eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBma3JoanVvaHFxbXZjbWNyem1wIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MTA3NzQ4MSwiZXhwIjoyMDc2NjUzNDgxfQ.gUd3gqTkbPt98aM0jbnBiPtsVQoLR7rYpjc-ofFNnck') as string;
 const RESEND_API_KEY = Deno.env.get('re_4b5HR4Hy_2dTkrUrmjVSXo8SfRBsqofNM') as string;
 
 const supabase = createClient(SUPABASE_URL, SERVICE_ROLE_KEY);
