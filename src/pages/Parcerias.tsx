@@ -337,7 +337,7 @@ const Parcerias = () => {
                         <FormItem className="md:col-span-2">
                           <FormLabel>Nome da empresa/instituição *</FormLabel>
                           <FormControl>
-                            <Input placeholder="Nome da organização" {...field} />
+                            <Input placeholder="Nome Jurídico" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
